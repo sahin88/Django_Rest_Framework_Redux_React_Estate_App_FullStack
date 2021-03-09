@@ -1,5 +1,23 @@
 # Django_Rest_Framework_Redux_React_Estate_App_FullStack
 
+
+## Live Demo [to see live demo please click](https://estate-real-appp.herokuapp.com)
+
+
+## Features
+  -  Django 3.1.7
+  -  PostgreSQL database support with psycopg2.
+  -  Bootstrap static files included
+  -  Procfile for easy deployments
+  -  User registration, logging
+  -  Custom User Model
+
+## Uml 
+![alt text](https://github.com/sahin88/DJango_Html_JS_Css_BootStrap_Ecommerce/blob/main/ecommerce_uml.png)
+
+
+## Getting Started
+First clone the repository from Github and switch to the new directory:
 ```
 $ git clone git@github.com/sahin88/{{ project_name }}.git
 $ cd {{ project_name }}
