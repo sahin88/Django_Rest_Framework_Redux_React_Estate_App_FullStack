@@ -1,0 +1,505 @@
+.App {
+  text-align: center;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.navbar__header {
+  position: sticky;
+  top: 0px;
+  height: 75px;
+  width: 100%;
+  background-color: #24252a;
+  color: #edf0f1;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 200;
+}
+
+.navbar__header__right__div .fragment {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  color: #edf0f1;
+
+  padding: 10px;
+}
+
+.navbar__header__right__div .link {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  font-weight: 600;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 5px;
+  margin-left: 5px;
+  font-size: 15px;
+  transition: 0.4s ease-in-out;
+}
+.navbar__header__right__div .link:hover {
+  background: #edf0f1;
+  border: 1px solid #edf0f1;
+  color: #24252a;
+}
+.navbar__header__bottom__div {
+  color: tomato;
+  background: turquoise;
+  height: 65px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: uppercase;
+  position: sticky;
+  top: 65px;
+  z-index: 100;
+}
+
+.navbar__header__bottom__div__links {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.login__div {
+  width: 300px;
+  position: relative;
+  top: 150px;
+  left: 40%;
+}
+.login__div__form {
+  width: 300px;
+}
+
+.login__div__form div input[type="text"],
+input[type="password"] {
+  width: 250px;
+  margin-bottom: 20px;
+  border: 2px solid turquoise;
+  padding: 10px;
+}
+.login__div__form div input[type="submit"] {
+  width: 100px;
+  height: 30px;
+  color: turquoise;
+  border: 1px solid turquoise;
+  margin-bottom: 15px;
+}
+
+.login__div__h2,
+.login__div__p {
+  padding: 15px 0px;
+}
+.home__div__top {
+  margin: 25px auto;
+  max-width: 70%;
+}
+
+.home__div__top__section__form {
+  display: flex;
+
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.home__div__top__section__form__div__div {
+  margin: 5px 10px;
+  min-width: 300px;
+}
+
+.home__div__top__section__form__div__div > input[type="submit"] {
+  background: turquoise;
+  border: none;
+  border-radius: 4px;
+  position: relative;
+  margin: 20px;
+  color: #24252a;
+  padding: 10px;
+  font-size: 16px;
+  height: 40px;
+  transition: 0.4s ease-in-out;
+}
+
+.home__div__top__section__form__div__div select,
+input[type="text"] {
+  width: 100%;
+  height: 40px;
+  border: 2px solid turquoise;
+  border-radius: 8px;
+  font-size: 16px;
+  background: #ffff;
+
+  color: #24252a;
+}
+.home__div__middle__section {
+  margin-top: 25px;
+
+  height: 100%;
+}
+
+.home__div__bottom__section {
+  height: 50px;
+}
+
+.card__before__show {
+  position: relative;
+  width: 80%;
+  left: 10%;
+  display: flex;
+  margin-top: 55px;
+
+  justify-content: space-around;
+}
+.card {
+  border: none;
+
+  width: 400px;
+  height: 100%;
+  background-color: #d3d3d3;
+  padding: 10px 10px;
+  margin-bottom: 25px;
+}
+
+.card__title {
+  font-size: 12px;
+  color: #24252a;
+  padding: 20px 0px 20px 0px;
+}
+.card__location {
+  color: crimson;
+  font-size: 12px;
+  padding: 10px 0px;
+}
+.card__info {
+  color: blue;
+}
+.card__link {
+  position: relative;
+  text-transform: uppercase;
+  color: blue;
+  border: 1px solid blue;
+  text-decoration: none;
+  padding: 10px;
+  margin: 25px;
+}
+.card__info__info {
+  display: flex;
+  justify-content: space-around;
+  margin: 25px 0px;
+}
+.card__info__info__group {
+  display: inline;
+  text-align: left;
+}
+.card__header__photo {
+  height: 200px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 200px;
+  margin-top: 50px;
+}
+.paginetion__number {
+  color: turquoise;
+  border: 1px solid turquoise;
+  padding: 10px;
+  margin: 5px;
+  width: 30px;
+  border-radius: 4px;
+}
+.paginetion__number_prev_next {
+  color: turquoise;
+  border: 1px solid turquoise;
+  padding: 10px;
+  margin: 5px;
+  width: 100px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.paginetion__active {
+  color: #24252a;
+  background: turquoise;
+  padding: 5px;
+  margin: 5px;
+  width: 30px;
+  position: relative;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.paginetion__number:hover {
+  background: turquoise;
+  color: #24252a;
+}
+
+.paginetion__number_prev_next:hover {
+  background: turquoise;
+  color: #24252a;
+}
+.listingdetail__header {
+  background: rgb(34, 0, 255);
+
+  color: #ffffff;
+}
+.listingdetail__header__sub {
+  position: relative;
+  background: #e4e4ed;
+  width: 80%;
+  left: 10%;
+  height: 50px;
+  padding: 15px;
+  margin: 15px 0px 20px 0px;
+}
+.listingdetail__main__top {
+  display: grid;
+  grid-template-columns: 60% 30%;
+}
+.listingdetail__main__top__left {
+  position: relative;
+  width: 80%;
+  left: 17%;
+}
+.listingdetail__mainphoto {
+  width: 100%;
+}
+.listingdetail__mainphoto__img {
+  width: 70%;
+}
+.listingdetail__info {
+  display: grid;
+  grid-template-columns: 45% 45%;
+}
+.listings__div__img {
+  width: 400px;
+  height: 400px;
+  margin: 0px 25px 25px 0px;
+}
+
+.subphotos {
+  margin-top: 25px;
+  left: 10%;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.about__realtors {
+  background: #d3d3d3;
+  padding: 15px;
+}
+.about__realtors__imgp {
+  width: 50%;
+  left: 25%;
+  position: relative;
+}
+
+.about__realtors__mainimg {
+  position: relative;
+  width: 100%;
+}
+
+.about__realtors__info {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.about__realtors__img {
+  width: 300px;
+  height: 400px;
+}
+
+.realtor__meet {
+  position: relative;
+  left: 0px;
+  margin: 25px 0px 25px 0px;
+}
+.contact__form {
+  margin-top: 200px;
+  position: relative;
+  width: 40%;
+  height: 400px;
+  left: 25%;
+}
+.contact__label__input {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  position: relative;
+  align-items: flex-start;
+}
+.contact__label__input label {
+  color: #24252a;
+  font-weight: 700;
+  padding: 10px 0px 10px 0px;
+}
+.contact__label__input input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+}
+
+input[type="email"] {
+  padding: 10px;
+  border: 2px solid turquoise;
+  border-radius: 8px;
+}
+
+textarea {
+  border: 2px solid turquoise;
+  min-height: 100px;
+}
+.contact__sendingButton {
+  border: 1px solid blue;
+  color: blue;
+  background: #fff;
+  padding: 10px 15px 10px 15px;
+  margin: 15px;
+  transition: ease-in-out 0.4s;
+}
+
+.contact__sendingButton:hover {
+  background: blue;
+  color: #fff;
+}
+@media screen and (max-width: 1000px) {
+  .home__div__top__section {
+    display: inline;
+  }
+
+  .home__div__top__section__form {
+    display: inline;
+  }
+
+  .home__div__top__section__form__div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card__before__show {
+    display: inline;
+    margin-top: 55px;
+  }
+
+  .card {
+    border: none;
+
+    width: 300px;
+    height: 100%;
+    background-color: #d3d3d3;
+    padding: 20px 5px;
+    margin-bottom: 25px;
+  }
+  .card__header__photo {
+    height: 150px;
+  }
+
+  .card__link {
+    position: relative;
+    text-transform: uppercase;
+    color: blue;
+    border: 1px solid blue;
+    text-decoration: none;
+  }
+  .card__info__info {
+    margin: 15px 0px;
+  }
+
+  .home__div__top__section__form {
+    padding: 1px;
+  }
+
+  .home__div__top {
+    margin: 25px;
+  }
+
+  .pagination {
+    padding-left: 35px;
+  }
+
+  .about__realtors__imgp {
+    font-size: 11px;
+  }
+
+  .about__realtors__info {
+    display: inline;
+  }
+
+  .about__realtors__img {
+    width: 200px;
+    height: 300px;
+  }
+
+  .realtor__meet {
+    font-size: 16px;
+  }
+  .about__realtors__div {
+    font-size: 13px;
+  }
+
+  .contact__form {
+    width: 90%;
+    height: 300px;
+    left: 10%;
+    position: relative;
+    top: 25px;
+  }
+
+  .contact__label__input {
+    position: relative;
+    width: 80%;
+    left: 0%;
+  }
+
+  .contact__label__input label {
+    color: #24252a;
+    font-weight: 500;
+  }
+  .contact__label__input input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+  }
+
+  input[type="email"] {
+    padding: 10px;
+    border: 2px solid turquoise;
+    border-radius: 8px;
+  }
+
+  textarea {
+    border: 2px solid turquoise;
+    min-height: 100px;
+  }
+
+  .login__div {
+    left: 10%;
+  }
+
+  .listingdetail__main__top {
+    display: inline;
+  }
+
+  .listingdetail__realtor__img {
+    width: 300px;
+    height: 400px;
+  }
+  .listings__div__img {
+    width: 290px;
+  }
+  .listingdetail__mainphoto__img {
+    width: 300px;
+    position: relative;
+    left: -10%;
+  }
+}

@@ -1,79 +1,68 @@
-# Django_Rest_Framework_Redux_React_Estate_App_FullStack
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
-## Live Demo [to see live demo please click](https://estate-real-appp.herokuapp.com)
+In the project directory, you can run:
 
+### `npm start`
 
-## Features
-  -  Django 3.1.7
-  -  PostgreSQL database support with psycopg2.
-  -  Bootstrap static files included
-  -  Procfile for easy deployments
-  -  User registration, logging
-  -  Custom User Model
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Uml 
-![alt text](https://github.com/sahin88/DJango_Html_JS_Css_BootStrap_Ecommerce/blob/main/ecommerce_uml.png)
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
+### `npm test`
 
-## Getting Started
-First clone the repository from Github and switch to the new directory:
-```
-$ git clone git@github.com/sahin88/{{ project_name }}.git
-$ cd {{ project_name }}
-```
-Activate the virtualenv for your project.
-```
-$ source vit/bin/activate
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-```
-Install project dependencies:
-```
-$pip install -r requirements.txt
+### `npm run build`
 
-```
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Then simply apply the migrations
-```
-$python manage.py migrate
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-You can now run the development server:
-```
-$ python manage.py runserver
+### `npm run eject`
 
-```
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-## Heroku
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-```
-$ heroku create
-$ heroku addons:add heroku-postgresql: ecommerce
-$ heroku buildpacks:set heroku/python
-$heroku buildpacks:add --index 1 heroku/nodejs
-$ heroku config:set AWS_SECRET_ACCESS_KEY
-$ heroku config:set AWS_SECRET_ACCESS_KEY
-$ heroku config:set AWS_STORAGE_BUCKET_NAME
-$ heroku config:set EMAIL_HOST_USER
-$ heroku config:set EMAIL_HOST_PASSWORD 
-$ heroku config:set DEBUG
-$ heroku config:set SECRET_KEY
-```
+## Learn More
 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Licence
-MIT
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Copyright (c) 2019-2024 Sahin Murat Ogur
+### Code Splitting
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"),
-to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+### Analyzing the Bundle Size
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, 
-TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

@@ -1,0 +1,25 @@
+.row {
+  max-width: $grid-width;
+  margin: 0 auto;
+
+  @include respond(big-desktop) {
+    max-width: none;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: $gutter-vertical;
+
+    @include respond(big-desktop) {
+      margin-bottom: $gutter-vertical-small;
+    }
+  }
+}
+
+@include respond(tab-port) {
+  padding: 0 4rem;
+}
+
+@include respond(phone) {
+  max-width: 45rem;
+  padding: 0 2rem;
+}

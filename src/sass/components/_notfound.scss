@@ -1,0 +1,16 @@
+.notFound {
+  margin-top: 16rem;
+  background-color: #f42a21;
+  &__heading {
+    font-size: 10rem;
+    text-align: center;
+    font-weight: 200;
+    opacity: 0, 0.9;
+    margin-bottom: 4rem;
+  }
+  &__paragraph {
+    font-size: 4.3rem;
+    text-align: center;
+    margin-bottom: 14rem;
+  }
+}

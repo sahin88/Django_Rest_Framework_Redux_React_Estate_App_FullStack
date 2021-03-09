@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  @include respond(tab-land) {
+    font-size: 56.25em;
+  }
+
+  @include respond(tab-port) {
+    font-size: 50%;
+  }
+
+  @include respond(phone) {
+    font-size: 80%;
+  }
+}
+
+body {
+  box-sizing: border-box;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+
+  @include respond(tab-port) {
+    font-size: 80%;
+    padding: 0px;
+  }
+
+  ::selection {
+    background-color: rgba($color-primary, 0.3);
+  }
+}
