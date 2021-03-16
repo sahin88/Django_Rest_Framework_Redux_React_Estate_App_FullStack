@@ -11,7 +11,7 @@
   -  User registration, logging
   -  Custom User Model
 
-## Uml Model
+## Entity Relationship Diagram
 ![alt text](https://github.com/sahin88/Django_Rest_Framework_Redux_React_Estate_App_FullStack/blob/main/polls_models.png)
 
 
